@@ -783,7 +783,7 @@ section {
 .gallery-outer-container {
   /* Calculate height based on gallery width to provide enough scroll distance */
   /* Formula: (images * width) + (gaps * count) + viewport height for smooth scrolling */
-  height: calc((4 * var(--gallery-item-width)) + (3 * var(--gallery-gap)) + 100vh);
+  height: calc((7 * var(--gallery-item-width)) + (6 * var(--gallery-gap)) + 100vh);
   position: relative;
 }
 
